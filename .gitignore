@@ -1,0 +1,4 @@
+*.swp
+
+# Dependency directory
+node_modules
