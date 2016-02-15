@@ -18,7 +18,7 @@ gulp.task('default', ['js', 'css', 'watch-sass', 'watch-js']);
 gulp.task('js', function () {
   browserify({
     entries: 'index.js.jsx',
-    extensions: ['.jsx'],
+    extensions: ['.jsx', '.js'],
     debug: true
   })
   .transform(babelify, {presets: ["es2015", "react"]})

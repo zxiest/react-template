@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Foobar = React.createClass({
+var Home = React.createClass({
   getInitialState: function() {
     return {
     }
@@ -11,11 +11,9 @@ var Foobar = React.createClass({
   },
   render: function() {
     return (
-      <div className='component'>
-        This is a ReactJS component
-      </div>
+      <div>Home</div>
     )
   }
 })
 
-module.exports = Foobar;
+module.exports = Home

@@ -1,7 +1,6 @@
 var React = require('react');
-var Foobar = require('./foobar.js');
 
-var App = React.createClass({
+var About = React.createClass({
   getInitialState: function() {
     return {
     }
@@ -12,11 +11,9 @@ var App = React.createClass({
   },
   render: function() {
     return (
-      <div>
-        <Foobar />
-      </div>
+      <div>About</div>
     )
   }
 })
 
-module.exports = App;
+module.exports = About;
